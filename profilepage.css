@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	background-color: wheat;
+	width: 800px;
+	height: 800px;
+	display: flexbox;
+	margin-left: 15rem;
+}
+
+.header {
+	background-color: red;
+	height: 100px;
+}
+
+.row {
+	background-color: teal;
+	width: 800px;
+	height: 700px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.main {
+	background-color: palegreen;
+	display: inline-block;
+	height: 400px;
+	width: 400px;
+}
+
+.side-nav {
+	background-color: lightsalmon;
+	display: inline-block;
+	height: 400px;
+	width: 250px;
+}
+
+.row2 {
+	background-color: rgb(153, 206, 204);
+	width: 400px;
+	height: 350px;
+	display: block;
+}
+
+.userhead {
+	background-color: rgb(47, 149, 213);
+	width: 400px;
+	height: 50px;
+	display: flex;
+}
+
+.userbody {
+	background-color: lightyellow;
+	width: 400px;
+	height: 150px;
+	display: block;
+	flex-direction: column;
+}
+
+.eduhead {
+	background-color: fuchsia;
+	width: 400px;
+	height: 50px;
+	display: flex;
+}
+
+.edubody {
+	background-color: lightyellow;
+	width: 400px;
+	height: 150px;
+	display: block;
+	flex-direction: column;
+}
+
+.navrow {
+	background-color: rgb(153, 206, 204);
+	height: 400px;
+	width: 250px;
+	display: block;
+}
+
+.navhead,
+.navhead2 {
+	background-color: rgb(47, 149, 213);
+	width: 250px;
+	height: 25px;
+	display: flex;
+}
+
+.navbody,
+.navbody2 {
+	background-color: lightyellow;
+	width: 250px;
+	height: 100px;
+	display: block;
+	flex-direction: column;
+}
+
+.navfoot {
+	background-color: orange;
+	width: 250px;
+	height: 20px;
+	display: flex;
+}
